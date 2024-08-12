@@ -6,13 +6,27 @@
 }
 
 body {
-    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-image: url("https://img.freepik.com/fotos-gratis/conceito-de-colagem-de-efeitos-climaticos_23-2150062097.jpg?t=st=1723469261~exp=1723472861~hmac=9779271ccb06c5d22c4b87faffcd900b279699ed7421450fa550771694b0ce7a&w=1380");
     background-size: cover;
     height: 100vh;
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    .creditos {
+        font-size: 12px;
+        position: fixed;
+        display: flex;
+        bottom: 20px;
+        right: 20px;
+        color:#ffffff;
+        a{
+            text-decoration: none;
+            color: #ffffff;
+            margin-left: 5px
+        }
+    }
 }
 
 .caixa-maior {
