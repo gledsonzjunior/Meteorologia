@@ -5,11 +5,11 @@ function colocarNaTela(dados) {
 	document.querySelector(".icone").src =
 		"https://openweathermap.org/img/wn/" + dados.weather[0].icon + ".png";
 	document.querySelector(".umidade").innerHTML =
-		"Máxima de " +
-		dados.main.temp_max +
+		"Max: " +
+		Math.floor(dados.main.temp_max) +
 		"ºC" +
-		" e Mínimas de " +
-		dados.main.temp_min +
+		" Mín: " +
+		Math.floor(dados.main.temp_min) +
 		"ºC";
 	console.log(dados);
 }

@@ -1,88 +1,88 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
 }
 
 body {
-    background-image: url("https://img.freepik.com/fotos-gratis/conceito-de-colagem-de-efeitos-climaticos_23-2150062097.jpg?t=st=1723469261~exp=1723472861~hmac=9779271ccb06c5d22c4b87faffcd900b279699ed7421450fa550771694b0ce7a&w=1380");
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	background-image: url("./assets/colagem-de-cenarios-meteorologicos-dbk9c5n23l7e5fgb.jpg");
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 
-    .creditos {
-        font-size: 12px;
-        position: fixed;
-        display: flex;
-        bottom: 20px;
-        right: 20px;
-        color:#ffffff;
-        a{
-            text-decoration: none;
-            color: #ffffff;
-            margin-left: 5px
-        }
-    }
+	.creditos {
+		font-size: 12px;
+		position: fixed;
+		display: flex;
+		bottom: 20px;
+		right: 20px;
+		color: #ffffff;
+		a {
+			text-decoration: none;
+			color: #ffffff;
+			margin-left: 5px;
+		}
+	}
 }
 
 .caixa-maior {
-    background-color: #000000;
-    opacity: 0.8;
-    width: 95%;
-    max-width: 450px;
-    border-radius: 25px;
-    padding: 20px;
+	background-color: #000000;
+	opacity: 0.8;
+	width: 95%;
+	max-width: 450px;
+	border-radius: 25px;
+	padding: 20px;
 }
 
 .lupa {
-    height: 20px;
-    width: 20px;
+	height: 20px;
+	width: 20px;
 }
 
 button {
-    border: none;
-    padding: 10px;
-    background-color: #7c7c7c2b;
-    cursor: pointer;
-    border-radius: 50%;
-    float: right;
+	border: none;
+	padding: 10px;
+	background-color: #7c7c7c2b;
+	cursor: pointer;
+	border-radius: 50%;
+	float: right;
 }
 
 button:hover {
-    background-color: #7c7c7c;
+	background-color: #7c7c7c;
 }
 
 input {
-    border: none;
-    outline: none;
-    border-radius: 20px;
-    padding: 10px;
-    background-color: #7c7c7c2b;
-    color: #ffffff;
-    width: calc(100% - 100px);
-    font-size: 24px;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	padding: 10px;
+	background-color: #7c7c7c2b;
+	color: #ffffff;
+	width: calc(100% - 100px);
+	font-size: 24px;
 }
 
 .caixa-media {
-    margin-top: 30px;
+	margin-top: 30px;
 }
 
 .cidade {
-    color: #ffffff;
-    font-size: 28px;
+	color: #ffffff;
+	font-size: 28px;
 }
 
 .temp {
-    color: #ffffff;
-    margin-top: 30px;
-    font-size: 30px;
+	color: #ffffff;
+	margin-top: 30px;
+	font-size: 30px;
 }
 
 .umidade {
-    color: #ffffff;
-    margin-top: 30px;
+	color: #ffffff;
+	margin-top: 30px;
 }
